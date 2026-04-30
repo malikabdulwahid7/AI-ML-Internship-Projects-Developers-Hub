@@ -1,90 +1,235 @@
-# AI/ML Internship Tasks
+🚀 AI/ML Internship Tasks
 
 This repository contains AI/ML internship tasks completed as part of my training. Each task demonstrates data handling, visualization, and modeling skills using Python and popular libraries like pandas, seaborn, matplotlib, scikit-learn, and yfinance.
 
----
+📌 Overview
 
-## Task 1: Exploring and Visualizing a Simple Dataset
+This repository includes both basic and advanced AI/ML tasks completed during my internship. These projects helped me build strong foundations in:
 
-**Objective:**  
-Learn how to load, inspect, and visualize a dataset to understand data trends and distributions.
+Data Analysis & Visualization
+Machine Learning Models
+Deep Learning & NLP
+Real-world AI Applications
+🧪 Basic Task Set
+🔹 Task 1: Exploring and Visualizing a Simple Dataset
 
-**Dataset:**  
-[Iris Dataset](https://archive.ics.uci.edu/ml/datasets/iris) (CSV format, can be loaded via seaborn or downloaded)
+Objective:
+Learn how to load, inspect, and visualize a dataset to understand trends and distributions.
 
-**Instructions / Approach:**  
-- Load the dataset using pandas.  
-- Print the shape, column names, and the first few rows using `.head()`.  
-- Use `.info()` and `.describe()` for summary statistics.  
-- Visualize the dataset:  
-  - Scatter plots to show relationships between features  
-  - Histograms for value distributions  
-  - Box plots to identify outliers  
-- Libraries used: `matplotlib`, `seaborn`
+Dataset:
+Iris Dataset
 
-**Skills Developed:**  
-- Data loading and inspection using pandas  
-- Descriptive statistics and data exploration  
-- Basic plotting and visualization
+Approach:
 
----
+Load dataset using pandas
+Inspect data using .head(), .info(), .describe()
+Visualizations:
+Scatter plots (feature relationships)
+Histograms (distribution)
+Box plots (outliers detection)
 
-## Task 2: Predict Future Stock Prices (Short-Term)
+Libraries Used:
+matplotlib, seaborn
 
-**Objective:**  
-Use historical stock data to predict the next day's closing price.
+Skills Developed:
 
-**Dataset:**  
-Stock market data from Yahoo Finance (retrieved using the `yfinance` Python library)
+Data loading & inspection
+Exploratory Data Analysis (EDA)
+Data visualization
+🔹 Task 2: Predict Future Stock Prices (Short-Term)
 
-**Instructions / Approach:**  
-- Select a stock (e.g., Apple, Tesla)  
-- Load historical data using `yfinance`  
-- Use features like Open, High, Low, and Volume to predict the next Close price  
-- Train a **Linear Regression** or **Random Forest** model  
-- Plot actual vs predicted closing prices for comparison
+Objective:
+Predict the next day's closing stock price using historical data.
 
-**Skills Developed:**  
-- Time series data handling  
-- Regression modeling  
-- Data fetching using APIs (`yfinance`)  
-- Plotting predictions vs real data
+Dataset:
+Yahoo Finance (via yfinance)
 
----
+Approach:
 
-## Task 3: Heart Disease Prediction
+Fetch stock data (e.g., Apple, Tesla)
+Use features: Open, High, Low, Volume
+Train models:
+Linear Regression
+Random Forest
+Compare actual vs predicted prices
 
-**Objective:**  
-Build a model to predict whether a person is at risk of heart disease based on their health data.
+Skills Developed:
 
-**Dataset:**  
-[Heart Disease UCI Dataset](https://www.kaggle.com/datasets/ronitf/heart-disease-uci)
+Time series handling
+Regression modeling
+API-based data fetching
+Visualization of predictions
+🔹 Task 3: Heart Disease Prediction
 
-**Instructions / Approach:**  
-- Clean the dataset (handle missing values if any)  
-- Perform Exploratory Data Analysis (EDA) to understand trends  
-- Train a classification model (**Logistic Regression** or **Decision Tree**)  
-- Evaluate using metrics: accuracy, ROC curve, confusion matrix  
-- Highlight important features affecting prediction
+Objective:
+Predict the likelihood of heart disease using patient health data.
 
-**Skills Developed:**  
-- Binary classification  
-- Medical data understanding and interpretation  
-- Model evaluation using ROC-AUC and confusion matrix  
-- Feature importance analysis
+Dataset:
+UCI Heart Disease Dataset
 
----
+Approach:
 
-## Tools & Libraries Used
-- Python 3.x  
-- pandas, numpy  
-- matplotlib, seaborn  
-- scikit-learn  
-- yfinance (for stock data)  
+Data cleaning & preprocessing
+Exploratory Data Analysis (EDA)
+Train classification models:
+Logistic Regression
+Decision Tree
+Evaluation:
+Accuracy
+ROC Curve
+Confusion Matrix
 
----
+Skills Developed:
 
-## Key Results & Findings
-- **Task 1:** Explored Iris dataset; identified feature distributions and relationships between flower types.  
-- **Task 2:** Achieved accurate short-term stock price predictions using regression models; visualized predictions vs actual prices.  
-- **Task 3:** Built a predictive model for heart disease with evaluation metrics; identified key features impacting heart disease risk.
+Binary classification
+Medical data interpretation
+Model evaluation techniques
+Feature importance analysis
+🧠 Advanced Internship Tasks
+
+DevelopersHub Corporation
+AI/ML Engineering – Advanced Internship
+📅 Due Date: 28th April, 2026
+
+📌 Advanced Tasks Overview
+
+As part of the AI/ML Engineering Internship at DevelopersHub Corporation, I worked on advanced tasks designed to provide hands-on experience with modern AI technologies such as:
+
+Transformers (Hugging Face)
+Machine Learning Pipelines
+Multimodal Learning
+Conversational AI
+Large Language Models (LLMs)
+
+Technologies Used:
+
+Hugging Face Transformers
+scikit-learn
+LangChain
+Streamlit / Gradio
+CNNs
+joblib
+🔹 Task 1: News Topic Classifier Using BERT
+
+Objective:
+Fine-tune a transformer model to classify news headlines.
+
+Dataset:
+AG News Dataset
+
+Approach:
+
+Tokenization & preprocessing
+Fine-tune BERT (bert-base-uncased)
+Evaluate using Accuracy & F1-score
+Deploy using Streamlit/Gradio
+
+Skills Gained:
+
+NLP with Transformers
+Transfer learning
+Model evaluation
+Deployment
+🔹 Task 2: End-to-End ML Pipeline
+
+Objective:
+Build a production-ready ML pipeline for customer churn prediction.
+
+Dataset:
+Telco Churn Dataset
+
+Approach:
+
+Data preprocessing using Pipeline API
+Train models:
+Logistic Regression
+Random Forest
+Hyperparameter tuning using GridSearchCV
+Export pipeline using joblib
+
+Skills Gained:
+
+Pipeline construction
+Hyperparameter tuning
+Model reusability
+Production-ready ML
+🔹 Task 3: Multimodal ML (Images + Tabular Data)
+
+Objective:
+Predict housing prices using both images and structured data.
+
+Dataset:
+Housing dataset + image dataset
+
+Approach:
+
+CNN for image feature extraction
+Combine image + tabular features
+Train regression model
+Evaluate using MAE & RMSE
+
+Skills Gained:
+
+Multimodal learning
+CNNs
+Feature fusion
+Advanced regression
+🔹 Task 4: Context-Aware Chatbot (LangChain / RAG)
+
+Objective:
+Build a chatbot that remembers context and retrieves information.
+
+Dataset:
+Custom knowledge base
+
+Approach:
+
+Use LangChain / RAG
+Implement conversational memory
+Use vector database for retrieval
+Deploy with Streamlit
+
+Skills Gained:
+
+Conversational AI
+Vector search
+RAG architecture
+LLM integration
+🔹 Task 5: Auto Tagging Support Tickets Using LLM
+
+Objective:
+Automatically classify support tickets into categories.
+
+Dataset:
+Support ticket dataset
+
+Approach:
+
+Prompt engineering / fine-tuning
+Compare:
+Zero-shot
+Few-shot
+Output top 3 predicted tags
+
+Skills Gained:
+
+Prompt engineering
+LLM-based classification
+Few-shot learning
+Multi-class prediction
+📊 Key Results & Findings
+✔️ Explored and visualized datasets effectively
+✔️ Built accurate regression models for stock prediction
+✔️ Developed classification model for heart disease prediction
+✔️ Applied transformer models for NLP tasks
+✔️ Designed ML pipelines for real-world deployment
+✔️ Worked on advanced AI concepts like RAG and multimodal learning
+📦 Tools & Libraries Used
+Python 3.x
+pandas, numpy
+matplotlib, seaborn
+scikit-learn
+yfinance
+Hugging Face Transformers
+LangChain
+Streamlit / Gradio
